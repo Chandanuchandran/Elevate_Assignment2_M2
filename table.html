@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to html</h1>
+    <table border="1" width="100%">
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+        </tr>
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+        </tr>
+    </table><br>
+    <br>
+
+    <table border="1" width="100%">
+        <tr>
+            <td>col 11</td>
+            <td>col 12</td>
+            <td>col 13</td>
+        </tr>
+        <tr>
+            <td>col 21</td>
+            <!-- here the space for the rest column even if there is no data-->    
+        </tr>
+        <tr>
+            <td>col 31</td>
+            <td>col 32</td>
+            <td>col 33</td>
+        </tr>
+
+    
+    </table>
+    <br>
+
+    <table border="1" width="100%">
+        <tr>
+            <td>col 11</td>
+            <td>col 12</td>
+            <td rowspan="2">The rowspan attribute specifies the number of rows a cell should span.</td>
+             <!-- here is the row takes the pointed space(here two rows,13 to 23) for the data using "rowspan"-->    
+
+        </tr>
+        <tr>
+            <td colspan="2">The colspan attribute defines the number of columns a cell should span. Browser Support. Attribute.</td>
+            <!-- here is the column takes the pointed space(21 to 22) for the data using "colspan"-->    
+        </tr>
+        <tr>
+            <td>col 31</td>
+            <td>col 32</td>
+            <td>col 33</td>
+        </tr>
+    </table>
+    <br>
+    <!-- block element, which takes the entire space and create new line  -->
+    <div style="background-color: aqua;">
+        kdjfghfguygfvgh
+    </div>
+    <dl>
+        <dt><strong>Colspan and Rowspan</strong></dt>
+        <dd>The rowspan and colspan are the attributes of <td> tag. These are used to specify the number of rows or columns a cell should merge. 
+            The rowspan attribute is for merging rows and the colspan attribute is for merging columns of the table in HTML.</dd>
+    </dl>
+    <!-- inline element which is oposite of block element -->
+    <a href="https://www.google.com/" style="color: blue;">click here</a>
+    
+</body>
+</html>
